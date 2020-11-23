@@ -7,15 +7,21 @@ main {
 main > div {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-evenly;
+    align-items: center;
     height: fit-content;
-    margin: 2% 5%;
+    padding: 2% 5%;
+    background-color: #8ad0ff;
 }
 
+main > div > div{
+    padding: 0 50px;
+}
 .img {
     width: auto;
     height: 100px;
 }
 
-#entreprise
+#entreprise {
+    background-color: #e6ae56;
+}
