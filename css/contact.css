@@ -1,0 +1,28 @@
+h1{
+	padding:  10px;
+	text-align:center;
+	font-family:"sans-serif";
+}
+div {
+	display: flex;
+	flex-direction: column;	
+	align-items: baseline;
+}
+input {
+	margin: 10px;
+}
+label {
+	margin: 10px;
+}
+select {
+	margin: 10px;
+}
+textarea{
+	margin: 10px;
+}
+fieldset{
+	margin: 10px;
+}
+body {
+	background-color: #c38a8a;
+}
