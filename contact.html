@@ -29,72 +29,75 @@
         </ul>
     </nav>
 </header>
-<h1>Contactez-Nous</h1>
-<form action="sendToMySecondYearInIut.php" method="get">
-    <fieldset>
-        <legend>Informations personnelles</legend>
-        <div>
-            <label for="surname">Nom :</label>
-            <input id="surname" name="surname" required type="text">
-        </div>
-        <div>
-            <label for="firstname">Prénom :</label>
-            <input id="firstname" name="firstname" required type="text">
-        </div>
-        <div>
-            <label for="email">Email :</label>
-            <input id="email" name="email" placeholder="votremail@domaine.com" required tabindex="1" type="email">
-        </div>
-        <div>
-            <label for="zip">Code postal :</label>
-            <input id="zip" name="zip" pattern="[0-9]{5}" required type="text">
-        </div>
-        <div>
-            <label for="countryselect">Pays d'origine : </label>
-            <select id="countryselect" name="country">
-                <option value="uk">United Kingdom</option>
-                <option selected="fr" value="fr">France</option>
-                <option value="sp">Spain</option>
-                <option value="ge">Germany</option>
-                <option value="us">United States of America</option>
-            </select>
-        </div>
-    </fieldset>
-    <fieldset>
-        <legend>Vous avez entendu parler de nous via?</legend>
-        <div>
+<main>
+    <h1>Contactez-Nous</h1>
+    <form action="sendToMySecondYearInIut.php" method="get">
+        <fieldset>
+            <legend>Informations personnelles</legend>
+            <div>
+                <label for="surname">Nom :</label>
+                <input id="surname" name="surname" required type="text">
+            </div>
+            <div>
+                <label for="firstname">Prénom :</label>
+                <input id="firstname" name="firstname" required type="text">
+            </div>
+            <div>
+                <label for="email">Email :</label>
+                <input id="email" name="email" placeholder="votremail@domaine.com" required tabindex="1" type="email">
+            </div>
+            <div>
+                <label for="zip">Code postal :</label>
+                <input id="zip" name="zip" pattern="[0-9]{5}" required type="text">
+            </div>
+            <div>
+                <label for="countryselect">Pays d'origine : </label>
+                <select id="countryselect" name="country">
+                    <option value="uk">United Kingdom</option>
+                    <option selected="fr" value="fr">France</option>
+                    <option value="sp">Spain</option>
+                    <option value="ge">Germany</option>
+                    <option value="us">United States of America</option>
+                </select>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Vous avez entendu parler de nous via?</legend>
+            <div>
 
-            <select id="viaselect" name="via">
-                <option value="ad">Une publicité</option>
-                <option value="twitter">Twitter</option>
-                <option value="facebook">Facebook</option>
-                <option selected="recommandation" value="recommandation">Une recommandation</option>
-                <option value="other">Autre</option>
-            </select>
-        </div>
-        <div>
-            <label for="autre">Si autre :</label>
-            <input id="autre" name="autre" type="text">
-        </div>
-    </fieldset>
-    <fieldset>
-        <legend>Date à laquelle vous souhaitez être recontacté</legend>
-        <input id="datecontact" name="datecontact" required type="Date">
-    </fieldset>
-    <fieldset>
-        <legend>Message</legend>
+                <select id="viaselect" name="via">
+                    <option value="ad">Une publicité</option>
+                    <option value="twitter">Twitter</option>
+                    <option value="facebook">Facebook</option>
+                    <option selected="recommandation" value="recommandation">Une recommandation</option>
+                    <option value="other">Autre</option>
+                </select>
+            </div>
+            <div>
+                <label for="autre">Si autre :</label>
+                <input id="autre" name="autre" type="text">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Date à laquelle vous souhaitez être recontacté</legend>
+            <input id="datecontact" name="datecontact" required type="Date">
+        </fieldset>
+        <fieldset>
+            <legend>Message</legend>
 
-        <div>
-	<textarea cols="80" id="msg" name="msg" placeholder="Nous essaierons de vous répondre dans les meilleurs délais dans la mesure du possible"
+            <div>
+	<textarea cols="80" id="msg" name="msg"
+              placeholder="Nous essaierons de vous répondre dans les meilleurs délais dans la mesure du possible"
               required
               rows="10"></textarea>
+            </div>
+        </fieldset>
+
+
+        <div>
+            <input type="submit" value="Envoyer">
         </div>
-    </fieldset>
-
-
-    <div>
-        <input type="submit" value="Envoyer">
-    </div>
-</form>
+    </form>
+</main>
 </body>
 </html>

@@ -1,18 +1,17 @@
-body
-{
-	margin:auto;
-	background-color:grey;
+body {
+    margin: auto;
+    background-color: grey;
 }
-header
-{
-	background-color:orange;
+
+header {
+    background-color: orange;
 }
-.texte
-{
-	margin:auto;
-	background-color:red;
+
+.texte {
+    margin: auto;
+    background-color: red;
 }
-.tableau
-{
-	background-color:blue;
+
+.tableau {
+    background-color: blue;
 }
