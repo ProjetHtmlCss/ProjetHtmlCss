@@ -1,3 +1,33 @@
+@font-face {
+    font-family: PaytoneOne;
+    src: url("../fonts/PaytoneOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: UbuntuB;
+    src: url("../fonts/Ubuntu-Bold.ttf");
+}
+
+@font-face {
+    font-family: RobotoR;
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: RobotoB;
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: UbuntuT;
+    src: url("../fonts/Ubuntu-Title.ttf");
+}
+
+@font-face {
+    font-family: Title;
+    src: url("../fonts/Bariol_Bold.otf");
+}
+
 header {
     display: flex;
     flex-direction: row;
@@ -95,15 +125,16 @@ header nav {
     flex-grow: 9;
 }
 
-header nav > ul{
+header nav > ul {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
-body{
+body {
     width: 100%;
     margin: auto;
+    font-family: RobotoR;
 }
 
 main {
@@ -111,3 +142,6 @@ main {
     width: auto;
 }
 
+h1, h2 {
+    font-family: Title;
+}
