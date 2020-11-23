@@ -135,6 +135,7 @@ body {
     width: 100%;
     margin: auto;
     font-family: RobotoR;
+    min-width: fit-content;
 }
 
 main {
