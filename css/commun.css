@@ -69,7 +69,7 @@ header {
     background-color: #8ad0ff;
 }
 
-header div {
+header > div {
     display: flex;
     justify-content: flex-end;
     flex-grow: 1;

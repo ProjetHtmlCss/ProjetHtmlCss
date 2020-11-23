@@ -7,9 +7,9 @@
     <link href="css/contact.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-	<header>
+<header>
     <div>
-    <img alt="Logo" id="Logo" src="images/Logo.png">
+        <img alt="Logo" id="Logo" src="images/Logo.png">
     </div>
     <nav>
         <ul id="menu">
@@ -29,73 +29,72 @@
         </ul>
     </nav>
 </header>
-
 <h1>Contactez-Nous</h1>
 <form action="sendToMySecondYearInIut.php" method="get">
-<fieldset>
-	<legend>Informations personnelles</legend>
-<div>
-	<label for="surname">Nom :</label>	
-	<input type="text" name="surname" id="surname" required>
-</div>
-<div>
-	<label for="firstname">Prénom :</label>
-	<input id="firstname" name="firstname" type="text" required>
-</div>
-<div>
-	<label for="email">Email :</label>
-	<input type="email" id="email" name="email" tabindex="1" placeholder="votremail@domaine.com" required>
-</div>	
-<div>
-	<label for="zip">Code postal :</label>
-	<input id="zip" name="zip" type="text" pattern="[0-9]{5}" required>
-</div>
-<div>
-	<label for="countryselect">Pays d'origine : </label>
-	<select name="country" id="countryselect">
-		<option value="uk">United Kingdom</option>
-		<option value="fr" selected="fr">France</option>
-		<option value="sp">Spain</option>
-		<option value="ge">Germany</option>
-		<option value="us">United States of America</option>
-	</select>
-</div>
-</fieldset>
-<fieldset>
-	<legend>Vous avez entendu parler de nous via?</legend>
-<div>
-	
-	<select name="via" id="viaselect">
-		<option value="ad">Une publicité</option>
-		<option value="twitter">Twitter</option>
-		<option value="facebook">Facebook</option>
-		<option value="recommandation" selected="recommandation">Une recommandation</option>
-		<option value="other">Autre</option>
-	</select>
-</div>
-<div>
-	<label for="autre">Si autre :</label>
-	<input type="text" name="autre" id="autre"> 
-</div>
-</fieldset>
-<fieldset>
-	<legend>Date à laquelle vous souhaitez être recontacté</legend>
-<input type="Date" name="datecontact" id="datecontact" required>
-</fieldset>
-<fieldset>
-	<legend>Message</legend>
+    <fieldset>
+        <legend>Informations personnelles</legend>
+        <div>
+            <label for="surname">Nom :</label>
+            <input id="surname" name="surname" required type="text">
+        </div>
+        <div>
+            <label for="firstname">Prénom :</label>
+            <input id="firstname" name="firstname" required type="text">
+        </div>
+        <div>
+            <label for="email">Email :</label>
+            <input id="email" name="email" placeholder="votremail@domaine.com" required tabindex="1" type="email">
+        </div>
+        <div>
+            <label for="zip">Code postal :</label>
+            <input id="zip" name="zip" pattern="[0-9]{5}" required type="text">
+        </div>
+        <div>
+            <label for="countryselect">Pays d'origine : </label>
+            <select id="countryselect" name="country">
+                <option value="uk">United Kingdom</option>
+                <option selected="fr" value="fr">France</option>
+                <option value="sp">Spain</option>
+                <option value="ge">Germany</option>
+                <option value="us">United States of America</option>
+            </select>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Vous avez entendu parler de nous via?</legend>
+        <div>
 
-<div>
-	<textarea id="msg" name="msg" rows="10" cols="80" 
-	placeholder="Nous essaierons de vous répondre dans les meilleurs délais dans la mesure du possible" required></textarea>
-</div>
-</fieldset>
+            <select id="viaselect" name="via">
+                <option value="ad">Une publicité</option>
+                <option value="twitter">Twitter</option>
+                <option value="facebook">Facebook</option>
+                <option selected="recommandation" value="recommandation">Une recommandation</option>
+                <option value="other">Autre</option>
+            </select>
+        </div>
+        <div>
+            <label for="autre">Si autre :</label>
+            <input id="autre" name="autre" type="text">
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Date à laquelle vous souhaitez être recontacté</legend>
+        <input id="datecontact" name="datecontact" required type="Date">
+    </fieldset>
+    <fieldset>
+        <legend>Message</legend>
+
+        <div>
+	<textarea cols="80" id="msg" name="msg" placeholder="Nous essaierons de vous répondre dans les meilleurs délais dans la mesure du possible"
+              required
+              rows="10"></textarea>
+        </div>
+    </fieldset>
 
 
-
-<div>
-	<input type="submit" value="Envoyer">
-</div>
+    <div>
+        <input type="submit" value="Envoyer">
+    </div>
 </form>
 </body>
 </html>
