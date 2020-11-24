@@ -48,10 +48,12 @@ main > article {
 
 main > article:nth-child(2n) {
     background: #4eabaf;
+    box-shadow: 0 0 20px 10px #3a7e82 inset;
 }
 
 main > article:nth-child(2n+1){
     background: #6388af;
+    box-shadow: 0 0 20px 10px #415d82 inset;
 }
 
 main .divImage {
