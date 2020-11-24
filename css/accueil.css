@@ -4,7 +4,7 @@ main {
     margin: 0;
 }
 
-main > div {
+main > article {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -46,11 +46,11 @@ main > div {
     height: 175px;
 }
 
-main > div:nth-child(2n) {
+main > article:nth-child(2n) {
     background: #4eabaf;
 }
 
-main > div:nth-child(2n+1){
+main > article:nth-child(2n+1){
     background: #6388af;
 }
 
