@@ -40,7 +40,6 @@ header {
     background-color: #17232c;
     max-height: 10vh;
     min-height: 40px;
-    min-width: fit-content;
     height: auto;
     padding: 5px 0;
 }
@@ -136,7 +135,6 @@ body {
     width: 100%;
     margin: auto;
     font-family: RobotoR, Arial;
-    min-width: fit-content;
     color: black;
     background-color: #8c969b;
     box-shadow: 0 0 10px 5px #2d3337 inset;
@@ -149,7 +147,6 @@ body {
 main {
     padding: 10px 7vw;
     width: 70%;
-    min-width: 710px;
 }
 
 h1, h2 {
@@ -200,115 +197,119 @@ form input, select, textarea {
     background-color: #d7e1e6;
 }
 
-/*---------------------------------------------------*/
-
-nav {
-    display: none;
-}
-
-header > #divLogo {
-    justify-content: center;
-    align-items: center;
-    height: auto;
-}
-
-#menuBurger {
-    display: none;
-}
-
 #burger {
-    position: absolute;
-    display: flex;
-    top: 0;
-    right: 0;
-    flex-direction: row;
-    align-items: flex-start;
+    display: none;
 }
 
-#burger:hover #menuBurger{
-    display: block;
-    height: 100vh;
-    background-color: #17232c;
-    width: fit-content;
-    margin: 0;
+@media (max-width: 920px) {
+
+    nav {
+        display: none;
+    }
+
+    header > #divLogo {
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    #menuBurger {
+        display: none;
+    }
+
+    #burger {
+        position: absolute;
+        display: flex;
+        top: 0;
+        right: 0;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    #burger:hover #menuBurger {
+        display: block;
+        height: 100vh;
+        background-color: #17232c;
+        width: fit-content;
+        margin: 0;
+    }
+
+    #imgBurger {
+        width: auto;
+        height: 10vh;
+        padding: 5px 0;
+        min-height: 40px;
+        max-height: 94px;
+    }
+
+    #menuBurger, #menuBurger ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+    }
+
+    #menuBurger > li {
+        position: relative;
+        border-radius: 8px 8px 8px 8px;
+        background-color: #8c969b;
+        margin: 10px;
+    }
+
+    #menuBurger ul li {
+        display: inherit;
+        border-radius: 0;
+        background-color: #737d82;
+    }
+
+    #menuBurger ul li:hover {
+        border-radius: 0;
+    }
+
+    #menuBurger ul li:last-child {
+        border-radius: 0 0 8px 8px;
+    }
+
+    #menuBurger a {
+        text-decoration: none;
+        display: block;
+        padding: 8px 20px;
+        color: #0e1f2b;
+    }
+
+
+    #menuBurger ul {
+        z-index: 1000;
+        max-height: 0;
+        overflow: hidden;
+        left: 0;
+        right: 0;
+        -moz-transition: .8s all .3s;
+        -webkit-transition: .8s all .3s;
+        transition: .8s all .3s;
+        position: relative;
+    }
+
+    #menuBurger li:hover ul {
+        max-height: 15em;
+    }
+
+    #menuBurger a {
+        text-decoration: none;
+        display: block;
+        padding: 8px 20px;
+        color: #0e1f2b;
+    }
+
+    #menuBurger ul a {
+        padding: 8px 0;
+    }
+
+    #menuBurger li:hover {
+        background-color: #b3bec3;
+    }
+
 }
-
-#imgBurger {
-    width: auto;
-    height: 10vh;
-    padding: 5px 0;
-    min-height: 40px;
-    max-height: 94px;
-}
-
-#menuBurger, #menuBurger ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    text-align: center;
-}
-
-#menuBurger > li {
-    position: relative;
-    border-radius: 8px 8px 8px 8px;
-    background-color: #8c969b;
-    margin: 10px;
-}
-
-#menuBurger ul li {
-    display: inherit;
-    border-radius: 0;
-    background-color: #737d82;
-}
-
-#menuBurger ul li:hover {
-    border-radius: 0;
-}
-
-#menuBurger ul li:last-child {
-    border-radius: 0 0 8px 8px;
-}
-
-#menuBurger a {
-    text-decoration: none;
-    display: block;
-    padding: 8px 20px;
-    color: #0e1f2b;
-}
-
-
-#menuBurger ul {
-    z-index: 1000;
-    max-height: 0;
-    overflow: hidden;
-    left: 0;
-    right: 0;
-    -moz-transition: .8s all .3s;
-    -webkit-transition: .8s all .3s;
-    transition: .8s all .3s;
-    position: relative;
-}
-
-#menuBurger li:hover ul {
-    max-height: 15em;
-}
-
-#menuBurger a {
-    text-decoration: none;
-    display: block;
-    padding: 8px 20px;
-    color: #0e1f2b;
-}
-
-#menuBurger ul a {
-    padding: 8px 0;
-}
-
-#menuBurger li:hover {
-    background-color: #b3bec3;
-}
-
-
 
 
 
