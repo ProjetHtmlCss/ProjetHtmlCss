@@ -161,7 +161,7 @@ footer {
     padding: 10px 0;
     height: 10vh;
     min-height: 200px;
-    width: auto;
+    width: 100%;
     justify-content: space-evenly;
 }
 
