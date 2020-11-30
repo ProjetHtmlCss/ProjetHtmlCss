@@ -37,7 +37,7 @@ header {
     position: sticky;
     top: 0;
     left: 0;
-    background-color: #dedbe6;
+    background-color: #17232c;
     max-height: 10vh;
     min-height: 40px;
     min-width: fit-content;
@@ -63,13 +63,13 @@ header {
     display: inline-block;
     position: relative;
     border-radius: 8px 8px 8px 8px;
-    background-color: #5bb1ff;
+    background-color: #a4afb4;
 }
 
 #menu ul li {
     display: inherit;
     border-radius: 0;
-    background-color: #57a1eb;
+    background-color: #8c969b;
 }
 
 #menu ul li:hover {
@@ -112,7 +112,7 @@ header {
 }
 
 #menu li:hover {
-    background-color: #8ad0ff;
+    background-color: #d6e1e6;
 }
 
 header > div {
@@ -155,7 +155,7 @@ footer img {
 footer {
     display: flex;
     flex-direction: row;
-    background-color: #0f0f10;
+    background-color: #17232c;
     color: #7a7a82;
     align-items: center;
     padding: 10px 0;
