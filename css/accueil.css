@@ -1,4 +1,4 @@
-body{
+body {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,8 +7,8 @@ body{
 main {
     display: flex;
     flex-direction: column;
-    margin: 0;
     width: fit-content;
+    padding: 5vh 7vw;
 }
 
 main > article {
@@ -38,29 +38,37 @@ main > article {
     width: auto;
 }
 
-#imgJoinUs{
+#imgJoinUs {
     height: 180px;
     width: auto;
 }
 
-#imgContact{
+#imgContact {
     height: 175px;
     width: auto;
 }
 
-#imgFaq{
+#imgFaq {
     width: auto;
     height: 175px;
+}
+
+main article:first-child {
+    border-radius: 50px 50px 0 0;
+}
+
+main article:last-child {
+    border-radius: 0 0 50px 50px;
 }
 
 main > article:nth-child(2n) {
-    background: #4eabaf;
-    box-shadow: 0 0 20px 10px #3a7e82 inset;
+    background: #689b8d;
+    box-shadow: 0 0 10px 5px #41695b inset;
 }
 
-main > article:nth-child(2n+1){
-    background: #6388af;
-    box-shadow: 0 0 20px 10px #415d82 inset;
+main > article:nth-child(2n+1) {
+    background: #42729b;
+    box-shadow: 0 0 10px 5px #2e4a69 inset;
 }
 
 main .divImage {
@@ -79,7 +87,7 @@ main a {
 }
 
 main a:hover {
-    color:#5a6469;
+    color: #5a6469;
 }
 
 

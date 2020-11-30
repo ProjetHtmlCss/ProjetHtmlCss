@@ -134,19 +134,25 @@ header nav > ul {
 body {
     width: 100%;
     margin: auto;
-    font-family: RobotoR;
+    font-family: RobotoR, Arial;
     min-width: fit-content;
     color: black;
     background-color: #8c969b;
+    box-shadow: 0 0 10px 5px #2d3337 inset;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 main {
-    margin: 0 7vw;
-    width: auto;
+    padding: 10px 7vw;
+    width: 70%;
+    min-width: 710px;
 }
 
 h1, h2 {
-    font-family: Title;
+    font-family: Title, Arial;
 }
 
 footer img {
@@ -170,7 +176,7 @@ footer {
 footer > * {
     width: auto;
     height: fit-content;
-    box-shadow: 0 0 6px 3px #050505 inset;
+    box-shadow: 0 0 6px 3px #070a0f inset;
     margin: 50px 5px;
     padding: 20px;
     border-radius: 10px;
