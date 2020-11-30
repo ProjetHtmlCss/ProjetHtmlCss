@@ -86,8 +86,12 @@ main a {
     color: black;
 }
 
-main a:hover {
-    color: #5a6469;
+main > article:nth-child(2n) a:hover {
+    color: #233450;
+}
+
+main > article:nth-child(2n+1) a:hover {
+    color: #2c5043;
 }
 
 
