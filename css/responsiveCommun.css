@@ -1,0 +1,117 @@
+@media (max-width: 970px) {
+
+    nav {
+        display: none;
+    }
+
+    header {
+        max-height: 10vh;
+        min-height: 40px;
+        width: 100%;
+        min-width: 257px;
+    }
+
+    header > #divLogo {
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    #menuBurger {
+        display: none;
+    }
+
+    #burger {
+        position: absolute;
+        display: flex;
+        top: 0;
+        right: 0;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    #burger:hover #menuBurger {
+        display: block;
+        height: 100vh;
+        background-color: #17232c;
+        width: fit-content;
+        margin: 0;
+    }
+
+    #imgBurger {
+        width: auto;
+        height: 10vh;
+        padding: 5px 0;
+        min-height: 40px;
+        max-height: 94px;
+        background-color: #17232c;
+    }
+
+    #menuBurger, #menuBurger ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+    }
+
+    #menuBurger > li {
+        position: relative;
+        border-radius: 8px 8px 8px 8px;
+        background-color: #8c969b;
+        margin: 10px;
+    }
+
+    #menuBurger ul li {
+        display: inherit;
+        border-radius: 0;
+        background-color: #737d82;
+    }
+
+    #menuBurger ul li:hover {
+        border-radius: 0;
+    }
+
+    #menuBurger ul li:last-child {
+        border-radius: 0 0 8px 8px;
+    }
+
+    #menuBurger a {
+        text-decoration: none;
+        display: block;
+        padding: 8px 20px;
+        color: #0e1f2b;
+    }
+
+
+    #menuBurger ul {
+        z-index: 1000;
+        max-height: 0;
+        overflow: hidden;
+        left: 0;
+        right: 0;
+        -moz-transition: .8s all .3s;
+        -webkit-transition: .8s all .3s;
+        transition: .8s all .3s;
+        position: relative;
+    }
+
+    #menuBurger li:hover ul {
+        max-height: 15em;
+    }
+
+    #menuBurger a {
+        text-decoration: none;
+        display: block;
+        padding: 8px 20px;
+        color: #0e1f2b;
+    }
+
+    #menuBurger ul a {
+        padding: 8px 0;
+    }
+
+    #menuBurger li:hover {
+        background-color: #b3bec3;
+    }
+
+}
