@@ -136,8 +136,8 @@ body {
     margin: auto;
     font-family: RobotoR;
     min-width: fit-content;
-    color: #080c0f;
-    background-color: #536069;
+    color: black;
+    background-color: #83929b;
 }
 
 main {
@@ -189,7 +189,9 @@ footer form {
     height: fit-content;
 }
 
-
+form input, select, textarea{
+    background-color: #bfc4cd;
+}
 
 
 

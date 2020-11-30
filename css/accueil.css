@@ -75,7 +75,7 @@ main .divTexte {
 
 main a {
     text-decoration: none;
-    color: #0e161b;
+    color: black;  
 }
 
 main a:hover {

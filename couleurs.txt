@@ -1,6 +1,0 @@
-Général :
-texte : #0e161b
-backgroud footer/nav : #17232c
-bouton nav : #a4afb4
-bouton nav sous menu : #8c969b
-bouton nav hover : #d6e1e6
