@@ -201,10 +201,17 @@ form input, select, textarea {
     display: none;
 }
 
-@media (max-width: 954px) {
+@media (max-width: 970px) {
 
     nav {
         display: none;
+    }
+
+    header {
+        max-height: 10vh;
+        min-height: 40px;
+        width: 100%;
+        min-width: 257px;
     }
 
     header > #divLogo {
@@ -240,6 +247,7 @@ form input, select, textarea {
         padding: 5px 0;
         min-height: 40px;
         max-height: 94px;
+        background-color: #17232c;
     }
 
     #menuBurger, #menuBurger ul {
