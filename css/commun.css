@@ -63,13 +63,13 @@ header {
     display: inline-block;
     position: relative;
     border-radius: 8px 8px 8px 8px;
-    background-color: #a4afb4;
+    background-color: #8c969b;
 }
 
 #menu ul li {
     display: inherit;
     border-radius: 0;
-    background-color: #8c969b;
+    background-color: #737d82;
 }
 
 #menu ul li:hover {
@@ -112,7 +112,7 @@ header {
 }
 
 #menu li:hover {
-    background-color: #d6e1e6;
+    background-color: #b3bec3;
 }
 
 header > div {
@@ -137,7 +137,7 @@ body {
     font-family: RobotoR;
     min-width: fit-content;
     color: black;
-    background-color: #83929b;
+    background-color: #8c969b;
 }
 
 main {
