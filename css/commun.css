@@ -201,7 +201,7 @@ form input, select, textarea {
     display: none;
 }
 
-@media (max-width: 920px) {
+@media (max-width: 954px) {
 
     nav {
         display: none;
