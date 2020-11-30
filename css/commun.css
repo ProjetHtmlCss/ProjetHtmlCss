@@ -160,24 +160,29 @@ footer img {
 
 footer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: #17232c;
     color: #8c969b;
     align-items: center;
     padding: 10px 0;
-    height: 10vh;
+    height: fit-content;
     min-height: 200px;
     width: 100%;
     justify-content: space-evenly;
 }
 
-footer > * {
-    width: auto;
-    height: fit-content;
+footer > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
     box-shadow: 0 0 6px 3px #070a0f inset;
-    margin: 50px 5px;
-    padding: 20px;
     border-radius: 10px;
+    margin: 10px;
+}
+
+footer > div > * {
+    padding: 25px;
 }
 
 footer a {
@@ -195,6 +200,10 @@ footer form {
 
 form input, select, textarea {
     background-color: #d7e1e6;
+}
+
+footer input {
+    background-color: #bec8cd;
 }
 
 #burger {
