@@ -28,6 +28,11 @@
     src: url("../fonts/Bariol_Bold.otf");
 }
 
+@font-face {
+    font-family: MonsteratSB;
+    src: url("../fonts/Montserrat-SemiBold.ttf");
+}
+
 header {
     display: flex;
     flex-direction: row;
@@ -42,6 +47,8 @@ header {
     min-height: 40px;
     height: auto;
     padding: 5px 0;
+    font-family: MonsteratSB, serif;
+    font-weight: 600;
 }
 
 #logo {
@@ -91,9 +98,9 @@ header {
     overflow: hidden;
     left: 0;
     right: 0;
-    -moz-transition: .8s all .3s;
-    -webkit-transition: .8s all .3s;
-    transition: .8s all .3s;
+    -moz-transition: .8s all .3s ease-in-out;
+    -webkit-transition: .8s all .3s ease-in-out;
+    transition: .8s all .3s ease-in-out;
 }
 
 #menu li:hover ul {
@@ -134,7 +141,7 @@ header nav > ul {
 body {
     width: 100%;
     margin: auto;
-    font-family: RobotoR, Arial;
+    font-family: RobotoR, Arial, serif;
     color: black;
     background-color: #8c969b;
     box-shadow: 0 0 10px 5px #2d3337 inset;
@@ -150,7 +157,7 @@ main {
 }
 
 h1, h2 {
-    font-family: Title, Arial;
+    font-family: Title, Arial, serif;
 }
 
 footer img {
