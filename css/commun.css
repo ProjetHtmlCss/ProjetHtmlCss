@@ -28,6 +28,11 @@
     src: url("../fonts/Bariol_Bold.otf");
 }
 
+@font-face {
+    font-family: MonsteratSB;
+    src: url("../fonts/Montserrat-SemiBold.ttf");
+}
+
 header {
     display: flex;
     flex-direction: row;
@@ -40,8 +45,10 @@ header {
     background-color: #17232c;
     max-height: 10vh;
     min-height: 40px;
-    min-width: fit-content;
     height: auto;
+    padding: 5px 0;
+    font-family: MonsteratSB, serif;
+    font-weight: 600;
 }
 
 #logo {
@@ -91,9 +98,9 @@ header {
     overflow: hidden;
     left: 0;
     right: 0;
-    -moz-transition: .8s all .3s;
-    -webkit-transition: .8s all .3s;
-    transition: .8s all .3s;
+    -moz-transition: .8s all .3s ease-in-out;
+    -webkit-transition: .8s all .3s ease-in-out;
+    transition: .8s all .3s ease-in-out;
 }
 
 #menu li:hover ul {
@@ -115,7 +122,7 @@ header {
     background-color: #b3bec3;
 }
 
-header > div {
+header > #divLogo {
     display: flex;
     justify-content: flex-end;
     flex-grow: 1;
@@ -134,19 +141,23 @@ header nav > ul {
 body {
     width: 100%;
     margin: auto;
-    font-family: RobotoR;
-    min-width: fit-content;
+    font-family: RobotoR, Arial, serif;
     color: black;
     background-color: #8c969b;
+    box-shadow: 0 0 10px 5px #2d3337 inset;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 main {
-    margin: 0 7vw;
-    width: auto;
+    padding: 10px 7vw;
+    width: 70%;
 }
 
 h1, h2 {
-    font-family: Title;
+    font-family: Title, Arial, serif;
 }
 
 footer img {
@@ -156,24 +167,29 @@ footer img {
 
 footer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: #17232c;
     color: #8c969b;
     align-items: center;
     padding: 10px 0;
-    height: 10vh;
+    height: fit-content;
     min-height: 200px;
     width: 100%;
     justify-content: space-evenly;
 }
 
-footer > * {
-    width: auto;
-    height: fit-content;
-    box-shadow: 0 0 6px 3px #050505 inset;
-    margin: 50px 5px;
-    padding: 20px;
+footer > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 0 6px 3px #070a0f inset;
     border-radius: 10px;
+    margin: 10px;
+}
+
+footer > div > * {
+    padding: 25px;
 }
 
 footer a {
@@ -189,13 +205,17 @@ footer form {
     height: fit-content;
 }
 
-form input, select, textarea{
-    background-color: #bfc4cd;
+form input, select, textarea {
+    background-color: #d7e1e6;
 }
 
+footer input {
+    background-color: #bec8cd;
+}
 
-
-
+#burger {
+    display: none;
+}
 
 
 

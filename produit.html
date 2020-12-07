@@ -5,9 +5,11 @@
 <head>
 
     <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
     <link href="images/incon.ico" rel="icon">
     <link href="css/commun.css" rel="stylesheet" type="text/css">
+    <link href="css/responsiveCommun.css" rel="stylesheet" type="text/css">
 
     <link href="css/produit.css" rel="stylesheet" type="text/css">
 
@@ -19,7 +21,7 @@
 
 <header>
 
-    <div>
+    <div id="divLogo">
 
         <img alt="Logo" id="logo" src="images/logoLight.png">
 
@@ -56,6 +58,24 @@
         </ul>
 
     </nav>
+    <div id="burger">
+        <img alt="burger" id="imgBurger" src="images/burger.png">
+        <ul id="menuBurger">
+            <li><a href="accueil.html">Accueil</a></li>
+            <li><a href="produit.html">Produit</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="equipe.html">Equipe</a></li>
+            <li><a href="presse.html">Presse</a></li>
+            <li><a href="nousRejoindre.html">Nous rejoindre</a>
+                <ul class="sousMenuNR">
+                    <li><a href="metier1.html">Metier 1</a></li>
+                    <li><a href="metier2.html">Metier 2</a></li>
+                    <li><a href="metier3.html">Metier 3</a></li>
+                </ul>
+            </li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </div>
 
 </header>
 
@@ -83,25 +103,27 @@
 </main>
 <footer>
     <div>
-        <p>
-            Mail : <a href="mailto:dysprokope.technologies@gmail.com">dysprokope.technologies@gmail.com</a><br>
-            Facebook : <a href="https://www.facebook.com/">DysprokopeTechnologies</a><br>
-            Instagram : <a href="https://www.instagram.com/">@DT</a><br>
-            Twitter : <a href="https://www.twitter.com/">@DT</a>
-        </p>
-    </div>
-    <div>
         <img alt="logo" src="images/logoLight.png">
     </div>
-    <form action="subscibeNewsletter.php" method="get">
-        <fieldset>
-            <legend>GARDONS LE CONTACT</legend>
-            <br>
-            <label>Newsletter</label><br>
-            <input id="emailFooter" name="email" placeholder="Votre e-mail" required type="email"><br>
-            <input type="submit" value="Inscprition">
-        </fieldset>
-    </form>
+    <div>
+        <div>
+            <p>
+                Mail : <a href="mailto:dysprokope.technologies@gmail.com">dysprokope.technologies@gmail.com</a><br>
+                Facebook : <a href="https://www.facebook.com/">DysprokopeTechnologies</a><br>
+                Instagram : <a href="https://www.instagram.com/">@DT</a><br>
+                Twitter : <a href="https://www.twitter.com/">@DT</a>
+            </p>
+        </div>
+        <form action="subscibeNewsletter.php" method="get">
+            <fieldset>
+                <legend>GARDONS LE CONTACT</legend>
+                <br>
+                <label>Newsletter</label><br>
+                <input id="email" name="email" placeholder="Votre e-mail" required type="email"><br>
+                <input type="submit" value="Inscprition">
+            </fieldset>
+        </form>
+    </div>
 </footer>
 
 </body>
