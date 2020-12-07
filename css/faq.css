@@ -1,0 +1,39 @@
+header {
+    z-index: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+}
+
+#content > div:nth-child(2n) {
+    align-self: flex-end;
+}
+
+#content > div:nth-child(2n+1) {
+    align-self: flex-start;
+}
+
+main {
+    width: 100%;
+}
+
+#content > div {
+    width: 50%;
+    background-color: gray;
+    text-align: center;
+}
+
+#background {
+    position: fixed;
+    z-index: -1;
+}
+
+body {
+    background-color: white;
+}
