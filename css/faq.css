@@ -7,12 +7,12 @@
     list-style: none;
 }
 
-#content p {
+#content .reponse p {
     max-height: 0;
     overflow: hidden;
 }
 
-#content .cible:target ~ p {
+#content .cible:target ~ .reponse p {
     max-height: fit-content;
 }
 
@@ -29,7 +29,6 @@
     z-index: 10000;
     visibility: hidden;
 }
-
 
 
 
