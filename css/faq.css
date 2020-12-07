@@ -9,6 +9,9 @@ h2 {
 #content {
     display: flex;
     flex-direction: column;
+    background-image: url("../images/workplace-1245776_1920.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
 }
 
 #content > div:nth-child(2n) {
@@ -20,20 +23,11 @@ h2 {
 }
 
 main {
-    width: 100%;
+    width: 90%;
 }
 
 #content > div {
     width: 50%;
     background-color: gray;
     text-align: center;
-}
-
-#background {
-    position: fixed;
-    z-index: -1;
-}
-
-body {
-    background-color: white;
 }
