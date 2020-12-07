@@ -1,13 +1,55 @@
+@font-face {
+    font-family: PaytoneOne;
+    src: url("../fonts/PaytoneOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: UbuntuB;
+    src: url("../fonts/Ubuntu-Bold.ttf");
+}
+
+@font-face {
+    font-family: RobotoR;
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: RobotoB;
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: UbuntuT;
+    src: url("../fonts/Ubuntu-Title.ttf");
+}
+
+@font-face {
+    font-family: Title;
+    src: url("../fonts/Bariol_Bold.otf");
+}
+
 header {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #17232c;
+    max-height: 10vh;
+    min-height: 40px;
+    min-width: fit-content;
+    height: auto;
 }
 
-#Logo {
-    width: 50px;
-    height: 50px;
+#logo {
+    width: auto;
+    height: 75px;
+    padding: 10px 0;
+    max-height: 10vh;
+    min-height: 40px;
 }
 
 #menu, #menu ul {
@@ -20,14 +62,14 @@ header {
 #menu li {
     display: inline-block;
     position: relative;
-    border-radius: 8px 8px 0 0;
-    background-color: #5bb1ff;
+    border-radius: 8px 8px 8px 8px;
+    background-color: #8c969b;
 }
 
 #menu ul li {
     display: inherit;
     border-radius: 0;
-    background-color: #57a1eb;
+    background-color: #737d82;
 }
 
 #menu ul li:hover {
@@ -36,6 +78,10 @@ header {
 
 #menu ul li:last-child {
     border-radius: 0 0 8px 8px;
+}
+
+#menu ul li:first-child {
+    border-radius: 8px 8px 0 0;
 }
 
 #menu ul {
@@ -57,7 +103,7 @@ header {
 #menu a {
     text-decoration: none;
     display: block;
-    padding: 6px 20px;
+    padding: 8px 20px;
     color: #0e1f2b;
 }
 
@@ -66,7 +112,7 @@ header {
 }
 
 #menu li:hover {
-    background-color: #8ad0ff;
+    background-color: #b3bec3;
 }
 
 header > div {
@@ -79,11 +125,82 @@ header nav {
     flex-grow: 9;
 }
 
-header nav > ul{
+header nav > ul {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
+
+body {
+    width: 100%;
+    margin: auto;
+    font-family: RobotoR;
+    min-width: fit-content;
+    color: black;
+    background-color: #8c969b;
+}
+
+main {
+    margin: 0 7vw;
+    width: auto;
+}
+
+h1, h2 {
+    font-family: Title;
+}
+
+footer img {
+    height: 50px;
+    width: auto;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #17232c;
+    color: #8c969b;
+    align-items: center;
+    padding: 10px 0;
+    height: 10vh;
+    min-height: 200px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+footer > * {
+    width: auto;
+    height: fit-content;
+    box-shadow: 0 0 6px 3px #050505 inset;
+    margin: 50px 5px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #5a6469;
+}
+
+footer a:hover {
+    color: #b4852a;
+}
+
+footer form {
+    height: fit-content;
+}
+
+form input, select, textarea{
+    background-color: #bfc4cd;
+}
+
+
+
+
+
+
+
+
+
 
 
 

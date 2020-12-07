@@ -1,0 +1,98 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: fit-content;
+}
+
+main > article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+#imgChip {
+    height: 175px;
+    width: auto;
+}
+
+#imgLogo {
+    height: 90px;
+    width: auto;
+}
+
+#imgTeam {
+    height: 165px;
+    width: auto;
+}
+
+#imgJoinUs{
+    height: 180px;
+    width: auto;
+}
+
+#imgContact{
+    height: 175px;
+    width: auto;
+}
+
+#imgFaq{
+    width: auto;
+    height: 175px;
+}
+
+main > article:nth-child(2n) {
+    background: #4eabaf;
+    box-shadow: 0 0 20px 10px #3a7e82 inset;
+}
+
+main > article:nth-child(2n+1){
+    background: #6388af;
+    box-shadow: 0 0 20px 10px #415d82 inset;
+}
+
+main .divImage {
+    width: fit-content;
+    height: auto;
+    min-height: fit-content;
+}
+
+main .divTexte {
+    width: 50%;
+}
+
+main a {
+    text-decoration: none;
+    color: black;
+}
+
+main a:hover {
+    color:#5a6469;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

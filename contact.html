@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact</title>
+    <link rel="icon" href="images/incon.ico">
     <link href="css/commun.css" rel="stylesheet" type="text/css">
     <link href="css/contact.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <header>
     <div>
-        <img alt="Logo" id="Logo" src="images/Logo.png">
+        <img alt="Logo" id="logo" src="images/logoLight.png">
     </div>
     <nav>
         <ul id="menu">
-            <li><a href="acceuil.html">Acceuil</a></li>
+            <li><a href="accueil.html">Accueil</a></li>
             <li><a href="produit.html">Produit</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="equipe.html">Equipe</a></li>
@@ -30,6 +31,7 @@
     </nav>
 </header>
 <main>
+<<<<<<< HEAD
 <h1>Contactez-Nous</h1>
 <form action="sendToMySecondYearInIut.php" method="get">
     <fieldset>
@@ -64,39 +66,103 @@
     <fieldset>
         <legend>Vous avez entendu parler de nous via?</legend>
         <div>
+=======
+    <h1>Contactez-Nous</h1>
+    <form action="sendToMySecondYearInIut.php" method="get">
+        <fieldset>
+            <legend>Informations personnelles</legend>
+            <div>
+                <label for="surname">Nom :</label>
+                <input id="surname" name="surname" required type="text">
+            </div>
+            <div>
+                <label for="firstname">Prénom :</label>
+                <input id="firstname" name="firstname" required type="text">
+            </div>
+            <div>
+                <label for="email">Email :</label>
+                <input id="email" name="email" placeholder="votremail@domaine.com" required tabindex="1" type="email">
+            </div>
+            <div>
+                <label for="zip">Code postal :</label>
+                <input id="zip" name="zip" pattern="[0-9]{5}" required type="text">
+            </div>
+            <div>
+                <label for="countryselect">Pays d'origine : </label>
+                <select id="countryselect" name="country">
+                    <option value="uk">United Kingdom</option>
+                    <option selected="fr" value="fr">France</option>
+                    <option value="sp">Spain</option>
+                    <option value="ge">Germany</option>
+                    <option value="us">United States of America</option>
+                </select>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Vous avez entendu parler de nous via?</legend>
+            <div>
+>>>>>>> fadbb9bb7bd463b1b00ffe5205c078b2f835287b
 
-            <select id="viaselect" name="via">
-                <option value="ad">Une publicité</option>
-                <option value="twitter">Twitter</option>
-                <option value="facebook">Facebook</option>
-                <option selected="recommandation" value="recommandation">Une recommandation</option>
-                <option value="other">Autre</option>
-            </select>
-        </div>
-        <div>
-            <label for="autre">Si autre :</label>
-            <input id="autre" name="autre" type="text">
-        </div>
-    </fieldset>
-    <fieldset>
-        <legend>Date à laquelle vous souhaitez être recontacté</legend>
-        <input id="datecontact" name="datecontact" required type="Date">
-    </fieldset>
-    <fieldset>
-        <legend>Message</legend>
+                <select id="viaselect" name="via">
+                    <option value="ad">Une publicité</option>
+                    <option value="twitter">Twitter</option>
+                    <option value="facebook">Facebook</option>
+                    <option selected="recommandation" value="recommandation">Une recommandation</option>
+                    <option value="other">Autre</option>
+                </select>
+            </div>
+            <div>
+                <label for="autre">Si autre :</label>
+                <input id="autre" name="autre" type="text">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Date à laquelle vous souhaitez être recontacté</legend>
+            <input id="datecontact" name="datecontact" required type="Date">
+        </fieldset>
+        <fieldset>
+            <legend>Message</legend>
 
-        <div>
-	<textarea cols="80" id="msg" name="msg" placeholder="Nous essaierons de vous répondre dans les meilleurs délais dans la mesure du possible"
+            <div>
+	<textarea cols="80" id="msg" name="msg"
+              placeholder="Nous essaierons de vous répondre dans les meilleurs délais dans la mesure du possible"
               required
               rows="10"></textarea>
+            </div>
+        </fieldset>
+
+
+        <div>
+            <input type="submit" value="Envoyer">
         </div>
-    </fieldset>
-
-
+    </form>
+</main>
+<footer>
     <div>
-        <input type="submit" value="Envoyer">
+        <p>
+            Mail : <a href="mailto:dysprokope.technologies@gmail.com">dysprokope.technologies@gmail.com</a><br>
+            Facebook : <a href="https://www.facebook.com/">DysprokopeTechnologies</a><br>
+            Instagram : <a href="https://www.instagram.com/">@DT</a><br>
+            Twitter : <a href="https://www.twitter.com/">@DT</a>
+        </p>
     </div>
+    <div>
+        <img alt="logo" src="images/logoLight.png">
+    </div>
+<<<<<<< HEAD
 </form>
 </main>
+=======
+    <form action="subscibeNewsletter.php" method="get">
+        <fieldset>
+            <legend>GARDONS LE CONTACT</legend>
+            <br>
+            <label>Newsletter</label><br>
+            <input id="emailFooter" name="email" placeholder="Votre e-mail" required type="email"><br>
+            <input type="submit" value="Inscprition">
+        </fieldset>
+    </form>
+</footer>
+>>>>>>> fadbb9bb7bd463b1b00ffe5205c078b2f835287b
 </body>
 </html>
