@@ -1,16 +1,39 @@
-body {
-    margin: auto;
-}
 main {
-	display: flex;
-	flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: min(5vh,40px) 7vw;
 }
-main > div {
-	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
+
+main > article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    width: 100%;
 }
-#chip {
-	width: 200px;
-	height: 200px;
+
+#firstcolor {
+  background-color: #B0BFEC;
+}
+
+#secondcolor {
+  background-color: #939FC3;
+}
+
+main .divImage {
+    width: 40%;
+    height: auto;
+    min-height: fit-content;
+    display: flex;
+    justify-content: flex-end;
+}
+
+main .divTexte {
+  width : 30%;
+}
+
+#imgChip {
+    height: 350px;
+    width: auto;
 }
