@@ -137,6 +137,13 @@
     }
 }
 
+@media (max-width: 360px){
+    header #logo{
+        width: 50vw;
+        height: auto;
+        min-height: 0;
+    }
+}
 
 
 
