@@ -17,7 +17,8 @@
         align-items: center;
         height: auto;
     }
-    header #logo{
+
+    header #logo {
         min-height: 30px;
         max-height: 60px;
         height: 10vh;
@@ -126,19 +127,19 @@
         background-color: #b3bec3;
     }
 
-     main #burger:hover{
+    main #burger:hover {
         opacity: 1;
     }
 }
 
 @media (max-width: 800px) {
-    footer > div{
+    footer > div {
         flex-direction: column;
     }
 }
 
-@media (max-width: 360px){
-    header #logo{
+@media (max-width: 360px) {
+    header #logo {
         width: 50vw;
         height: auto;
         min-height: 0;

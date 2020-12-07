@@ -8,7 +8,7 @@ main {
     display: flex;
     flex-direction: column;
     width: fit-content;
-    padding: min(5vh,40px) 7vw;
+    padding: min(5vh, 40px) 7vw;
 }
 
 main > article {
@@ -104,16 +104,18 @@ main > article:nth-child(2n+1) a:hover {
         align-items: center;
         justify-content: center;
     }
-    main .divTexte{
+
+    main .divTexte {
         width: 90%;
     }
+
     h1 {
         text-align: center;
     }
 }
 
 @media (max-width: 430px) {
-    #imgLogo{
+    #imgLogo {
         height: 60px;
     }
 }
