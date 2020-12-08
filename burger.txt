@@ -23,11 +23,3 @@ CSS :
     cursor: pointer;
     user-select: none;
 }
-
-jdhjzh
-zjdhhjzd
-kjdzdkjkljd
-zdkjd
-dzkjdzk
-dskhdks
-s!d;s
