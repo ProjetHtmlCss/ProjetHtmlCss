@@ -96,11 +96,14 @@ main > article:nth-child(2n+1) a:hover {
     color: #2c5043;
 }
 
+article {
+    padding: 15px 0;
+}
+
 @media (max-width: 835px) {
     main > article {
         flex-direction: column;
         width: fit-content;
-        padding: 15px 0;
         align-items: center;
         justify-content: center;
     }
