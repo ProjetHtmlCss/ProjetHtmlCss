@@ -8,12 +8,14 @@
 }
 
 #content .reponse p {
-    max-height: 0;
+    height: fit-content;
     overflow: hidden;
+    max-height: 0;
+    transition: max-height ease-in-out 1.5s;
 }
 
 #content .cible:target ~ .reponse p {
-    max-height: fit-content;
+    max-height: 50vh;
 }
 
 #content li {
