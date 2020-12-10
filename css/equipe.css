@@ -22,6 +22,8 @@ h1 {
 @media (max-width:499px){
 	img{padding}
 	p {display:none;}
+    .titre{display:inline;}
 }
 /* informations importantes en gras*/
 .infos{font-weight:bold;}
+.titre{font-weight:bold;}
