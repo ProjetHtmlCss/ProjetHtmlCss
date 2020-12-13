@@ -27,3 +27,12 @@ main textarea {
 main fieldset {
     margin: 10px;
 }
+@media(max-width: 1020px){
+	main{
+		width: 95%;
+	}
+	
+	#msg {		
+		width: 85%
+	}
+}
