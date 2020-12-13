@@ -49,6 +49,7 @@ header {
     padding: 5px 0;
     font-family: MonsteratSB, serif;
     font-weight: 600;
+    z-index: 1000;
 }
 
 #logo {
@@ -159,6 +160,10 @@ main {
 
 h1, h2 {
     font-family: Title, Arial, serif;
+}
+
+h1 {
+    text-align: center;
 }
 
 footer img {
