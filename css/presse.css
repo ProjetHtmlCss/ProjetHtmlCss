@@ -18,6 +18,7 @@ article>#communique1{
     margin-right: auto 
 }
 
+
 article>#communique2{
 	text-align: justify;
     //background: #9aa7d0;
@@ -43,7 +44,9 @@ div>h2,h3{
 h1{
     text-align: center;
 }
-
+.datelieu {
+    font-weight: bold;
+}
 
 div {
 	margin: 10px;
@@ -55,6 +58,7 @@ div {
     border-radius: 10px;
       text-align: center;
 }
+
 
 @media (max-width: 835px) {
     main{
