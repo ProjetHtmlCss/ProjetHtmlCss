@@ -9,7 +9,7 @@ h1 {
 }
 
 /*Site sous forme de grille*/
-@media (min-width: 500px) {
+@media (min-width: 650px) {
     .wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr 3fr;
@@ -19,11 +19,31 @@ h1 {
 }
 /*Site sous forme de liste*/
 
-@media (max-width:499px){
-	img{padding}
-	p {display:none;}
-    .titre{display:inline;}
+@media (max-width:649px){
+    img {
+   display:block;
+   margin-left:auto;
+   margin-right:auto;
+    }
+    p{display:none;}
+    .debut{display:block;}
+
+
 }
 /* informations importantes en gras*/
 .infos{font-weight:bold;}
-.titre{font-weight:bold;}
+
+
+
+.debut {background:#42729b;
+    padding:10px;
+    border-radius:20px;
+    box-shadow:0 0 10px 5px #2e4a69 inset;
+    }
+
+.equipe{background-color:#689b8d;
+     padding:10px;
+     border-radius:20px;
+     box-shadow:0 0 10px 5px #41695b inset;}
+
+.titre{color:#094376;}
