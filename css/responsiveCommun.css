@@ -33,10 +33,11 @@
         -webkit-transition: transform 1s ease-in-out;
         transition: transform 1s ease-in-out;
         transform: translateX(100%);
+        overflow-y: scroll;
     }
 
     #burger {
-        overflow: hidden;
+        overflow-x: hidden;
         position: absolute;
         display: flex;
         top: 0;
@@ -45,7 +46,7 @@
         align-items: flex-end;
     }
 
-    #burger:hover #menuBurger {
+    #imgBurger:hover ~ #menuBurger, #menuBurger:hover {
         position: relative;
         transform: translateX(0);
     }
