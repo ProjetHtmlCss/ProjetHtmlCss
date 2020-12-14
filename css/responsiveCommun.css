@@ -25,7 +25,7 @@
     }
 
     #menuBurger {
-        height: 100vh;
+        min-height: 100vh;
         background-color: #17232c;
         width: fit-content;
         margin: 0;
@@ -33,10 +33,11 @@
         -webkit-transition: transform 1s ease-in-out;
         transition: transform 1s ease-in-out;
         transform: translateX(100%);
+        overflow-y: scroll;
     }
 
     #burger {
-        overflow: hidden;
+        overflow-x: hidden;
         position: absolute;
         display: flex;
         top: 0;
