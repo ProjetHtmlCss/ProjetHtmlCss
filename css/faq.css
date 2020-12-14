@@ -1,3 +1,8 @@
+#content li *{
+    padding: 0;
+    margin: 0;
+}
+
 #content a {
     text-decoration: none;
     color: black;
@@ -11,16 +16,17 @@
     height: fit-content;
     overflow: hidden;
     max-height: 0;
+    margin-top: 0;
     transition: max-height ease-in-out 1.5s;
 }
 
 #content .cible:target ~ .reponse p {
-    max-height: 50vh;
+    max-height: 100vh;
 }
 
 #content li {
-    position: relative;
-    top: 20px;
+    padding: 10px 15px;
+    margin: 20px 0;
 }
 
 .cible {
