@@ -4,11 +4,16 @@
 	position: relative;
 	top: 5px;
 }
+main{
+	width: 100%
+}
+
 main .box{
 	display: flex;
+
 }
 #gauche{
-	width: 30%;
+	width: 13%;
 	margin: 30px;
     padding: 10px 40px;
     border-radius: 10px;
@@ -23,12 +28,21 @@ main .box{
     background: #689b8d;
     box-shadow: 0 0 10px 5px #41695b inset;
 }
+.contact {
+	font-style: italic;
+}
+.contenu {
+	padding: 30px 0;
+}
+
+
 
 @media (max-width: 1020px){
 	main {
 		width: 100%;
 	}
 	main .box{
+		align-items: center;
 		display: flex;
 		flex-direction: column;
 	}
@@ -43,6 +57,13 @@ main .box{
 	}
 	.titre {
 		text-align: center;
+	}
+	h1 {
+        padding: 10px 0;
+        text-align: center;
+    }
+    .contenu {
+	padding: 0px 0;
 	}
 }
 
