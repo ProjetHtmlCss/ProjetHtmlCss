@@ -45,7 +45,7 @@
         align-items: flex-end;
     }
 
-    #burger:hover #menuBurger {
+    #imgBurger:hover ~ #menuBurger {
         position: relative;
         transform: translateX(0);
     }
