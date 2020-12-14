@@ -57,6 +57,13 @@ a {
     display:block;
     
 }
+.separate span.hr {
+    width:270px;
+    height:2px;
+    background:black;
+    display:block;
+    
+}
 
 
 @media (max-width: 800px){
@@ -97,4 +104,22 @@ a {
 	
 		display: none;
 	}
+	.separate span.hr { 
+	
+		display: none;
+	}
 }
+@media (max-width: 1600px){
+	.seperate{
+			display: flex;
+	}
+	.separate span.h { 
+	
+		display: none;
+	}
+	.separate span.hr { 
+	
+		display: none;
+	}
+}
+
