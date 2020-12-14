@@ -13,12 +13,13 @@ main .box{
 
 }
 #gauche{
-	width: 13%;
+	width: 15%;
 	margin: 30px;
     padding: 10px 40px;
     border-radius: 10px;
     background: #42729b;
     box-shadow: 0 0 10px 5px #2e4a69 inset;
+    text-align: center;
 }
 #droite {
 	width: 70%;
@@ -30,14 +31,35 @@ main .box{
 }
 .contact {
 	font-style: italic;
+	text-align: justify;
 }
 .contenu {
 	padding: 30px 0;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+   	font-weight: bold;
+}
+
+.separate {
+    text-align:center;
+    
+    display:inline-block;
+    margin-top:20px;
+    width:400px;
+}
+.separate span.h {
+    width:250px;
+    height:2px;
+    background:black;
+    display:block;
+    
+}
 
 
-@media (max-width: 1020px){
+@media (max-width: 800px){
 	main {
 		width: 100%;
 	}
@@ -65,5 +87,14 @@ main .box{
     .contenu {
 	padding: 0px 0;
 	}
+	
 }
-
+@media (max-width: 1600px){
+	.seperate{
+			display: flex;
+	}
+	.separate span.h { 
+	
+		display: none;
+	}
+}
