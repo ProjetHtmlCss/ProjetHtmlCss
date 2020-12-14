@@ -1,0 +1,48 @@
+.icone {
+	height: 25px;
+	width: 25px;
+	position: relative;
+	top: 5px;
+}
+main .box{
+	display: flex;
+}
+#gauche{
+	width: 30%;
+	margin: 30px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    background: #42729b;
+    box-shadow: 0 0 10px 5px #2e4a69 inset;
+}
+#droite {
+	width: 70%;
+	margin: 30px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    background: #689b8d;
+    box-shadow: 0 0 10px 5px #41695b inset;
+}
+
+@media (max-width: 1020px){
+	main {
+		width: 100%;
+	}
+	main .box{
+		display: flex;
+		flex-direction: column;
+	}
+	#gauche{
+		width: 75%;
+		text-align: center;
+		padding: 20px 20px;
+	}
+	#droite {
+		width: 68%;
+		padding: 0 30px;
+	}
+	.titre {
+		text-align: center;
+	}
+}
+
