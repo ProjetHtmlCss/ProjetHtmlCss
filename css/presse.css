@@ -1,4 +1,6 @@
-
+article img{
+    border-radius: 30px;
+}
 article>#communique1{
 	text-align: justify;
     //background: #9aa7d0;
