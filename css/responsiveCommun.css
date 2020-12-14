@@ -25,7 +25,7 @@
     }
 
     #menuBurger {
-        min-height: 100vh;
+        height: 100vh;
         background-color: #17232c;
         width: fit-content;
         margin: 0;
@@ -46,7 +46,7 @@
         align-items: flex-end;
     }
 
-    #burger:hover #menuBurger {
+    #imgBurger:hover ~ #menuBurger, #menuBurger:hover {
         position: relative;
         transform: translateX(0);
     }
