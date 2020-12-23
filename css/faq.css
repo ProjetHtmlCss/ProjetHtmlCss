@@ -33,9 +33,16 @@
     visibility: hidden;
 }
 
+#content{
+    background-color:#689b8d;
+    padding: 5px 0;
+    border-radius:20px;
+    box-shadow:0 0 10px 5px #41695b inset;
+}
 
-
-
+.reponse{
+    padding: 0 10px;
+}
 
 
 
