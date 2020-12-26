@@ -2,7 +2,7 @@ main {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: min(5vh,40px) 7vw;
+    padding: min(5vh, 40px) 7vw;
 }
 
 main > article {
@@ -14,11 +14,11 @@ main > article {
 }
 
 #firstcolor {
-  background-color: #B0BFEC;
+    background-color: #B0BFEC;
 }
 
 #secondcolor {
-  background-color: #939FC3;
+    background-color: #939FC3;
 }
 
 main .divImage {
@@ -30,7 +30,7 @@ main .divImage {
 }
 
 main .divTexte {
-  width : 30%;
+    width: 30%;
 }
 
 #imgChip {
@@ -38,6 +38,6 @@ main .divTexte {
     width: auto;
 }
 
-h1,h2,h3 {
-  text-align: left;
+h1, h2, h3 {
+    text-align: left;
 }
