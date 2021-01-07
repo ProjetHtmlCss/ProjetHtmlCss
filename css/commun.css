@@ -223,7 +223,9 @@ footer input {
     display: none;
 }
 
-
+main p {
+    line-height: 25px;
+}
 
 
 
