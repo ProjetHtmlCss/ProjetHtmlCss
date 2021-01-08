@@ -81,6 +81,7 @@ main .divImage {
 
 main .divTexte {
     width: 50%;
+    margin-bottom: 15px;
 }
 
 main .divTexte p {
