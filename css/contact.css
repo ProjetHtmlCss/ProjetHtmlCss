@@ -8,36 +8,59 @@ main {
     align-items: center;
 }
 
-main form{
+main form {
     background-color: #8c969b;
     border-radius: 10px;
     border: 4px solid #194b6f;
-}
-
-main div {
     display: flex;
     flex-direction: column;
-    align-items: baseline;
+    padding: 10px 0;
 }
 
-main input {
-    margin: 10px;
+.input {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: 2em;
+    margin: 10px 0;
 }
 
-main label {
-    margin: 10px;
+.inputItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 10px;
+    background-color: #194b6f;
+    color: #bec8cd;
+    border-radius: 10px 0 0 10px;
 }
 
-main select {
-    margin: 10px;
+.inputField, .inputItem {
+    height: 100%;
+    border: 1px solid rgba(89,99,104,0.51);
 }
 
-main textarea {
-    margin: 10px;
+.inputField {
+    flex: 1;
+    padding: 0 10px;
+    margin: 0;
 }
 
-main fieldset {
-    margin: 10px;
+#inputMsg{
+    height: 100px;
+}
+
+#msg {
+    resize: none;
+}
+
+fieldset {
+    margin: 10px 30px;
+    border: 1px solid #596368;
+}
+
+#send {
+    align-self: center;
 }
 
 @media (max-width: 1020px) {

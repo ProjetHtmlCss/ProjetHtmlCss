@@ -21,7 +21,7 @@
             <li><a href="contact.html">Contact</a></li>
             <li><a href="equipe.html">Equipe</a></li>
             <li><a href="presse.html">Presse</a></li>
-            <li><a href="nousRejoindre.html">Nous rejoindre</a>
+            <li><a href="nousRejoindre.html">N us rejoindre</a>
                 <ul id="sousMenuNR">
                     <li><a href="metier1.html">Architecte Cloud H/F</a></li>
                     <li><a href="metier2.html">Neurobiologiste H/F</a></li>
@@ -55,25 +55,26 @@
     <form action="sendToMySecondYearInIut.php" method="get">
         <fieldset>
             <legend>Informations personnelles</legend>
-            <div>
-                <label for="surname">Nom :</label>
-                <input id="surname" name="surname" required type="text">
+            <div class="input">
+                <span class="inputItem">Nom :</span>
+                <input class="inputField" id="surname" name="surname" required type="text">
             </div>
-            <div>
-                <label for="firstname">Prénom :</label>
-                <input id="firstname" name="firstname" required type="text">
+            <div class="input">
+                <span class="inputItem">Prénom :</span>
+                <input class="inputField" id="firstname" name="firstname" required type="text">
             </div>
-            <div>
-                <label for="emailB">Email :</label>
-                <input id="emailB" name="email" placeholder="votremail@domaine.com" required tabindex="1" type="email">
+            <div class="input">
+                <span class="inputItem">Email :</span>
+                <input class="inputField" id="emailB" name="email" placeholder="votremail@domaine.com" required
+                       tabindex="1" type="email">
             </div>
-            <div>
-                <label for="zip">Code postal :</label>
-                <input id="zip" name="zip" pattern="[0-9]{5}" required type="text">
+            <div class="input">
+                <span class="inputItem">Code postal :</span>
+                <input class="inputField" id="zip" name="zip" pattern="[0-9]{5}" required type="text">
             </div>
-            <div>
-                <label for="countryselect">Pays d'origine : </label>
-                <select id="countryselect" name="country">
+            <div class="input">
+                <span class="inputItem">Pays d'origine : </span>
+                <select class="inputField" id="countryselect" name="country">
                     <option value="uk">United Kingdom</option>
                     <option selected="fr" value="fr">France</option>
                     <option value="sp">Spain</option>
@@ -84,9 +85,8 @@
         </fieldset>
         <fieldset>
             <legend>Vous avez entendu parler de nous via?</legend>
-            <div>
-
-                <select id="viaselect" name="via">
+            <div class="input">
+                <select class="inputField" id="viaselect" name="via">
                     <option value="ad">Une publicité</option>
                     <option value="twitter">Twitter</option>
                     <option value="facebook">Facebook</option>
@@ -94,27 +94,27 @@
                     <option value="other">Autre</option>
                 </select>
             </div>
-            <div>
-                <label for="autre">Si autre :</label>
-                <input id="autre" name="autre" type="text">
+            <div class="input">
+                <span class="inputItem">Si autre :</span>
+                <input class="inputField" id="autre" name="autre" type="text">
             </div>
         </fieldset>
         <fieldset>
             <legend>Date à laquelle vous souhaitez être recontacté</legend>
-            <input id="datecontact" name="datecontact" required type="Date">
+            <div class="input">
+                <input class="inputField" id="datecontact" name="datecontact" required type="Date">
+            </div>
         </fieldset>
         <fieldset>
             <legend>Message</legend>
-
-            <div>
-	<textarea cols="80" id="msg" name="msg"
-              placeholder="Nous vous répondrons dans les meilleurs délais dans la mesure du possible"
-              required
-              rows="10"></textarea>
+            <div class="input" id="inputMsg">
+	            <textarea class="inputField" cols="80" id="msg" name="msg"
+                          placeholder="Nous vous répondrons dans les meilleurs délais dans la mesure du possible"
+                          required rows="10"></textarea>
             </div>
         </fieldset>
-        <div>
-            <input type="submit" value="Envoyer">
+        <div class="input" id="send">
+            <input class="inputField" type="submit" value="Envoyer">
         </div>
     </form>
 </main>
