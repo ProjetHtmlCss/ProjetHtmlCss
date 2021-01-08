@@ -47,14 +47,23 @@ main h2 {
     color: #cdd1de;
 }
 
+article p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#listeOffres img {
+    margin-bottom: 25px;
+}
+
 @media (max-width: 1024px) {
     main h2 {
         text-indent: 0;
     }
 }
 
-@media (max-width: 700px){
-    #listeOffres{
+@media (max-width: 700px) {
+    #listeOffres {
         flex-direction: column;
     }
 }
