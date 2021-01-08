@@ -2,6 +2,18 @@ main h1 {
     text-align: center;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form{
+    background-color: #8c969b;
+    border-radius: 10px;
+    border: 4px solid #194b6f;
+}
+
 main div {
     display: flex;
     flex-direction: column;

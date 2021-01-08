@@ -145,6 +145,10 @@ body {
     font-family: RobotoR, Arial, serif;
     color: black;
     background-color: #8c969b;
+    background-image: url("../images/backgroundImg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     box-shadow: 0 0 10px 5px #2d3337 inset;
     justify-content: center;
     display: flex;
@@ -238,6 +242,17 @@ footer label{
     margin-top: 2em;
     margin-bottom: 2em;
 }
+
+.title {
+    background-color: #194b6f;
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    color: #bec8cd !important;
+}
+
 
 
 
