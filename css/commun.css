@@ -151,11 +151,13 @@ body {
     flex-direction: column;
     align-items: center;
     overflow-x: hidden;
+    min-height: 100vh;
 }
 
 main {
     padding: 10px 7vw;
     width: 70%;
+    flex: 1;
 }
 
 h1, h2 {
