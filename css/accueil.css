@@ -83,6 +83,11 @@ main .divTexte {
     width: 50%;
 }
 
+main .divTexte p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 main a {
     text-decoration: none;
     color: black;
