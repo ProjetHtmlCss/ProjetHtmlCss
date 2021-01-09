@@ -7,10 +7,10 @@ main {
 
 #content {
     background-color: #689b8d;
-    padding: 5px 20px;
     border-radius: 20px;
     box-shadow: 0 0 10px 5px #41695b inset;
     width: 100%;
+    padding-bottom: 25px;
 }
 
 article p {
@@ -18,16 +18,68 @@ article p {
     margin-top: 0;
 }
 
-#imgChip {
-    height: 250px;
+main article img {
+    height: 225px;
 }
 
-#presentation {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+#content h2{
+    text-align: center;
 }
 
 .divTexte {
     width: 50%;
 }
+
+#imgTrade {
+    height: 150px;
+}
+
+main article{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 50px;
+}
+
+#content ul {
+    margin: unset;
+}
+
+#imgApp {
+    border-radius: 10px;
+}
+
+@media (max-width: 1024px) {
+    main article {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .space {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 590px) {
+    main article img {
+        height: 150px;
+    }
+}
+
+@media (max-width: 370px) {
+    main h2{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
