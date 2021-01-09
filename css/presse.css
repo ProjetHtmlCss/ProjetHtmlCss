@@ -51,7 +51,6 @@ div > h2, h3 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 h1 {
@@ -78,24 +77,19 @@ div {
 
 @media (max-width: 835px) {
     main {
-
         width: 100%;
-
     }
 
     article > #communique1 {
         margin: 20px;
         padding: 10px 10px;
         text-align: justify;
-
-
     }
 
     article > #communique2 {
         margin: 20px;
         padding: 10px 10px;
         text-align: justify;
-
     }
 
     div > h2, h3 {
@@ -103,11 +97,8 @@ div {
     }
 
     h1 {
-
         width: 98%;
         text-align: center;
-
-
     }
 
 }
@@ -130,23 +121,18 @@ div {
     #imgtablet {
         height: 150px;
         align-items: center;
-
     }
 
     #imgpuce {
         height: 170px;
         align-items: center;
     }
-
-
 }
 
 @media (max-width: 375px) {
-
     #imgtablet {
         height: 125px;
         align-items: center;
-
     }
 
     #imgpuce {
