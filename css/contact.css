@@ -37,7 +37,7 @@ main form {
 
 .inputField, .inputItem {
     height: 100%;
-    border: 1px solid rgba(89,99,104,0.51);
+    border: 1px solid rgba(89, 99, 104, 0.51);
 }
 
 .inputField {
@@ -46,7 +46,7 @@ main form {
     margin: 0;
 }
 
-#inputMsg{
+#inputMsg {
     height: 100px;
 }
 

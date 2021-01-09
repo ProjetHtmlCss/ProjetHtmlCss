@@ -22,7 +22,7 @@ main article img {
     height: 225px;
 }
 
-#content h2{
+#content h2 {
     text-align: center;
 }
 
@@ -34,7 +34,7 @@ main article img {
     height: 150px;
 }
 
-main article{
+main article {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -68,7 +68,7 @@ main article{
 }
 
 @media (max-width: 370px) {
-    main h2{
+    main h2 {
         margin-left: 10px;
         margin-right: 10px;
     }

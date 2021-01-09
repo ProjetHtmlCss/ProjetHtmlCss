@@ -3,6 +3,7 @@ main {
     flex-direction: column;
     align-items: center;
 }
+
 main img {
     width: 100px;
     height: 100px;
@@ -27,7 +28,6 @@ h1 {
 }
 
 /*Site sous forme de liste*/
-
 @media (max-width: 649px) {
     main img {
         display: block;
@@ -42,15 +42,12 @@ h1 {
     .debut {
         display: block;
     }
-
-
 }
 
 /* informations importantes en gras*/
 .infos {
     font-weight: bold;
 }
-
 
 .debut {
     background-color: #42729b;

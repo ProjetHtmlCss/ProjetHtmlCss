@@ -52,7 +52,6 @@ a {
 
 .separate {
     text-align: center;
-
     display: inline-block;
     margin-top: 20px;
     width: 400px;
@@ -63,7 +62,6 @@ a {
     height: 2px;
     background: black;
     display: block;
-
 }
 
 .separate span.hr {
@@ -71,7 +69,6 @@ a {
     height: 2px;
     background: black;
     display: block;
-
 }
 
 .title {
@@ -111,7 +108,7 @@ a {
     }
 
     .contenu {
-        padding: 0px 0;
+        padding: 0;
     }
 
 }
