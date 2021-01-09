@@ -40,7 +40,7 @@ article > #communique2 {
     box-shadow: 0 0 10px 5px #41695b inset;
 }
 
-div > h2, h3 {
+main div > h2, h3 {
     text-align: center;
 }
 
@@ -61,7 +61,7 @@ h1 {
     font-weight: bold;
 }
 
-div {
+main div {
     margin: 10px;
 }
 
